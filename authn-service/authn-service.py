@@ -13,7 +13,7 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
-
+string password = "RCH8Q~85RX9qKrAp7yEUUb_KzYo_y86N"
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
